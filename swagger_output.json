@@ -13,7 +13,7 @@
   "paths": {
     "/api/estudiantes/": {
       "get": {
-        "description": "",
+        "description": "Obtiene la lista de estudiantes y permite filtrar por bootcamp",
         "parameters": [
           {
             "name": "bootcamp",
@@ -28,7 +28,7 @@
         }
       },
       "post": {
-        "description": "",
+        "description": "Crea un nuevo estudiante",
         "parameters": [
           {
             "name": "body",
@@ -61,7 +61,7 @@
     },
     "/api/estudiantes/{id}": {
       "get": {
-        "description": "",
+        "description": "Obtiene un estudiante por su ID",
         "parameters": [
           {
             "name": "id",
@@ -80,7 +80,7 @@
         }
       },
       "put": {
-        "description": "",
+        "description": "Actualiza los datos de un estudiante existente",
         "parameters": [
           {
             "name": "id",
@@ -117,7 +117,7 @@
         }
       },
       "delete": {
-        "description": "",
+        "description": "Elimina un estudiante por su ID",
         "parameters": [
           {
             "name": "id",
